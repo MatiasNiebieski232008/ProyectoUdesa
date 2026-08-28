@@ -33,19 +33,26 @@ text-align: center;
    align-items: center;
    justify-content: center;
     border-radius: 10px;
-    margin-left: 40%;
+    margin:0 auto;
     margin-top: 10%;
     box-shadow: 10px 10px 10px;
     height: 400px;
+
+    padding: 100px;
 }
 
 h1{
-    margin-top: 120px;
-    margin-left: 44%;
+
+    margin: 0 auto;
     margin-bottom: -130px ;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  padding-top: 150px;
 }
 
 a{
+    
     text-decoration: none;
     color: var(--a);
 }
@@ -63,4 +70,5 @@ button{
     border-radius: 20px;
     margin: 10px;
 }
+
 
