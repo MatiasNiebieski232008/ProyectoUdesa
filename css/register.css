@@ -1,3 +1,9 @@
+:root{
+ --fondo: #ffff;   /* blanco */
+ --nav: #05b4ae;       /* celeste */
+    --color-texto: #1f2937;       /* gris oscuro */
+}
+
 .form{
 display: flex;
 flex-direction: column;
@@ -9,3 +15,4 @@ justify-content: center;
 margin: 10px 0;
 text-align: center;
 }
+
