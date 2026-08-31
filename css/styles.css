@@ -6,7 +6,9 @@
 :root {
     --fondo: #fff;                    /* blanco */
     --nav: #05b4ae;                   /* celeste */
+    --nav-oscuro: #039490;            /* celeste oscuro (hover del boton) */
     --color-texto: #1f2937;           /* gris oscuro */
+    --input-fondo: #f3f4f6;           /* gris claro (fondo de los inputs) */
     --a: grey;                        /* links */
     --hover-btn: rgb(240, 239, 240);
 }
@@ -52,6 +54,7 @@ ul {
     border-right: 2px solid var(--color-texto);
     position: sticky;
     top: 10px;
+    text-align: center;
 }
 
 .index hr{
@@ -76,22 +79,42 @@ ul {
     margin: 10px 0;
 }
 
+label {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-texto);
+    margin-bottom: 5px;
+}
+
 input {
     width: 200px;
     height: 50px;
+    padding: 0 15px;
+    background-color: var(--input-fondo);
+    border: none;
     border-radius: 15px;
     margin: 5px;
 }
 
+
+
 button {
-    background-color: var(--fondo);
+    width: 200px;
     height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--fondo);
+    background-color: var(--nav);
+    border: none;
     border-radius: 20px;
     margin: 10px;
 }
 
 button:hover {
-    background-color: var(--hover-btn);
+    background-color: var(--nav-oscuro);
 }
 
 
