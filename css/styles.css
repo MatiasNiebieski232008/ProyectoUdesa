@@ -52,8 +52,6 @@ ul {
     width: 20%;
     height: 825px;
     border-right: 2px solid var(--color-texto);
-    position: sticky;
-    top: 10px;
     text-align: center;
 }
 
