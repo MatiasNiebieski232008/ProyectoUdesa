@@ -65,6 +65,12 @@ ul {
  
 }
 
+.index .var .logo {
+    height: 50px;
+    width: 50px;
+    
+
+}
 
 /* 4. Formularios login y register
    ========================================================================== */
@@ -232,3 +238,4 @@ button:hover {
         font-size: 13px;
     }
 }
+
