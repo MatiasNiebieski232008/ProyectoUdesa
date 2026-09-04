@@ -172,3 +172,68 @@ button:hover {
     text-align: center;
    border: 2px solid var(--color-texto); 
 }
+
+
+/* 7. Responsive login y register
+   ========================================================================== */
+
+/* Tablet / iPad (hasta 1024px) */
+@media (max-width: 1024px) {
+    .login .abajo,
+    .register .abajo {
+        min-width: 40%;
+        height: auto;
+        padding: 50px 40px;
+        margin: 8% auto 40px;
+    }
+
+    .login input,
+    .register input,
+    .login button,
+    .register button {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .login .abajo,
+    .register .abajo {
+        width: 90%;
+        height: auto;
+        padding: 30px 15px;
+        margin: 30px auto;
+        box-shadow: 5px 5px 8px var(--nav);
+    }
+
+    .login h1,
+    .register h1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .login .form,
+    .register .form {
+        width: 100%;
+    }
+
+    .login .form p,
+    .register .form p {
+        width: 100%;
+    }
+
+    .login input,
+    .register input,
+    .login button,
+    .register button {
+        width: 100%;
+        max-width: 320px;
+        height: 45px;
+        margin: 5px 0;
+    }
+
+    .login label,
+    .register label {
+        font-size: 13px;
+    }
+}
