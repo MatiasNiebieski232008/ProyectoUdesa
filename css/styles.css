@@ -164,10 +164,15 @@ button:hover {
 
 /* 5. Login
    ========================================================================== */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .login h1 {
     text-align: center;
     margin: 20px 0 10px;
-
 }
 
 .login .abajo {
@@ -175,7 +180,7 @@ button:hover {
     width: 25%;
     height: 450px;
     padding: 100px;
-    margin: 10% auto 0;
+    margin: 10% 0 0;
     border-radius: 10px;
     box-shadow: 10px 10px 10px var(--nav);
     display: flex;
@@ -193,6 +198,12 @@ button:hover {
 
 /* 6. Register
    ========================================================================== */
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .register h1 {
     text-align: center;
     margin: 20px 0 10px;
@@ -203,7 +214,7 @@ button:hover {
     background-color: var(--fondo);
     width: 25%;
     height: 550px;
-    margin: 70px auto 0;
+    margin: 70px 0 0;
     border-radius: 10px;
     box-shadow: 10px 10px 10px var(--nav);
     display: flex;
