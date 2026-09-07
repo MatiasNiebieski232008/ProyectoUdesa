@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +18,9 @@
 
     <div class="abajo">
 
-    <form action="/enviar" class="form">
+    <form action="index.html" class="form">
 
-        <h1>Iniciar sesion</h1>
-
-        <p>
-            <label for="nombre">Nombre y apellido:</label><br>
-            <input type="text" id="nombre" name="nombre" required placeholder="Ingresar nombre y apellido">
-        </p>
+        <h1>Iniciar sesión</h1>
 
         <p>
             <label for="email">Email:</label><br>
@@ -33,16 +28,15 @@
         </p>
 
         <p>
-            <label for="contraseña">contraseña:</label><br>
-            <input type="password" id="contraseña" name="contraseña" placeholder="Ingresar contraseña">
+            <label for="clave">Contraseña:</label><br>
+            <input type="password" id="clave" name="clave" required placeholder="Ingresar contraseña">
         </p>
-
 
         <p>
-            <button type="submit">Iniciar sesion</button>
+            <button type="submit">Ingresar</button>
         </p>
-            <p>No tenes una cuenta, <a href="register.html">registrate</a></p>
-            <a href="index.html"> Volver al incio</a>
+
+        <p><a href="register.html">No tengo cuenta</a></p>
     </form>
     </div>
 </body>
