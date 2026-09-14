@@ -27,9 +27,6 @@ ul {
     width: 100%;
 }
 
-.index .var{
-    width: 20%;
-}
 
 .index .var {
     background-color: #fff;
@@ -46,14 +43,38 @@ ul {
 .var a {
     color: #1f2937;
     margin: 15px;
+    display: block;
  
 }
 
-.index .var .logo {
+.index .header-logo img {
     height: 50px;
     width: 50px;
     
 
+}
+
+.index header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.index .header-nav ul {
+    display: flex;
+}
+
+.index .header-nav li {
+    margin: 0 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* 4. Formularios login y register
