@@ -29,9 +29,9 @@ ul {
 
 
 .index .var {
-    background-color: #fff;
+    background-color: white;
     width: 20%;
-    border-right: 2px solid #1f2937;
+    border-right: 2px solid ;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ ul {
 }
 
 .var a {
-    color: #1f2937;
+    color: black;
     margin: 15px;
     display: block;
  
@@ -58,6 +58,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
+    background-color:rgb(202, 235, 248)
 }
 
 .index .header-nav ul {
@@ -89,8 +90,9 @@ a {
     width: 220px;
     padding: 15px;
     margin: 15px;
+    background-color: rgb(202, 235, 248);
 
-    border: 1px solid #1f2937;
+    border: 1px solid black;
 
     text-align: center;
 }
@@ -109,8 +111,8 @@ a {
 
 .index .producto a {
     display: block;
-    background-color: #1f2937;
-    color: #fff;
+    background-color: rgb(60, 137, 163);
+    color: white;
     padding: 10px;
 }
 
@@ -121,8 +123,8 @@ a {
 }
 
 .index footer {
-    background-color: #1f2937;
-    color: #fff;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 20px;
 }
