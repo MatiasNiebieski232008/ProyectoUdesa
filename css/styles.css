@@ -324,7 +324,21 @@ button:hover {
     margin: 5px 0;
 }
 
-/* 8. Responsive login, register, index
+/* 8. Resultados de busqueda
+   ========================================================================== */
+.index .termino-buscado {
+    margin: 10px 0 20px;
+}
+
+.index .sin-resultados {
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(202, 235, 248);
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* 9. Responsive login, register, index
    ========================================================================== */
 
 /* Tablet (hasta 1024px) */
@@ -363,51 +377,4 @@ button:hover {
         width: 100%;
     }
 
-    .index header {
-        flex-direction: column;
-    }
-
-    .index .header-nav ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    .index .header-nav li {
-        margin: 5px 0;
-    }
-
-    .index .header-search {
-        width: 90%;
-        margin-top: 10px;
-    }
-
-    .index .contenido-index {
-        flex-direction: column;
-    }
-
-    .index .var {
-        width: 100%;
-        border-right: none;
-        border-bottom: 2px solid #1f2937;
-    }
-
-    .index .contenido-principal {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .index .contenedor-productos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .index .producto {
-        width: 90%;
-        box-sizing: border-box;
-    }
-
-}
-
-
-
+   }
