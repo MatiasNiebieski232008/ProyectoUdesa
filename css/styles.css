@@ -151,7 +151,7 @@ a {
 .nav{
     width: 100%;
     height: 100px;
-    background-color: #05b4ae;
+    background-color: rgb(202, 235, 248);
     display: flex;
     align-items: center;
     justify-content: space-between; 
@@ -239,7 +239,7 @@ button:hover {
     padding: 100px;
     margin: 10% 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #05b4ae;
+    box-shadow: 10px 10px 10px rgb(202, 235, 248);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -273,7 +273,7 @@ button:hover {
     height: 550px;
     margin: 70px 0 0;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #05b4ae;
+    box-shadow: 10px 10px 10px rgb(202, 235, 248);
     display: flex;
     align-items: center;
     justify-content: center;
