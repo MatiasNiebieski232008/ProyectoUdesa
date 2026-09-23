@@ -282,7 +282,49 @@ button:hover {
 }
 
 
-/* 7. Responsive login, register, index
+
+/* 7. Product
+   ========================================================================== */
+.index .detalle-producto {
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(202, 235, 248);
+    border: 1px solid black;
+}
+
+.index .detalle-producto img {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.index .detalle-datos p {
+    margin: 10px 0;
+}
+
+.index .tags {
+    display: flex;
+}
+
+.index .tags li {
+    background-color: rgb(60, 137, 163);
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.index .review {
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(202, 235, 248);
+    border: 1px solid black;
+}
+
+.index .review p {
+    margin: 5px 0;
+}
+
+/* 8. Responsive login, register, index
    ========================================================================== */
 
 /* Tablet (hasta 1024px) */
@@ -292,6 +334,19 @@ button:hover {
         width: 40%;
         height: auto;
         padding: 40px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .index .detalle-producto {
+        flex-direction: column;
+    }
+
+    .index .detalle-producto img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 
@@ -353,3 +408,6 @@ button:hover {
     }
 
 }
+
+
+
