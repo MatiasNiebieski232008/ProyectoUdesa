@@ -19,7 +19,11 @@ a {
 ul {
     list-style: none;
 }
-
+img{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
 
 /* 3. index
    ========================================================================== */
@@ -29,10 +33,11 @@ ul {
 
 
 .index .var {
-    background-color: white;
+    background-color: rgb(164, 226, 250);
     width: 20%;
-    border-right: 2px solid ;
+    border-right: 2px solid black;
     text-align: center;
+    border-top: 2px solid black ;
 }
 
 .index hr{
@@ -58,7 +63,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color:rgb(202, 235, 248)
+    background-color:rgb(202, 235, 248);
 }
 
 .index .header-nav ul {
@@ -84,15 +89,17 @@ a {
 .index .contenido-principal {
     width: 80%;
     padding: 20px;
+    border-top: 2px solid black
 }
 
 .index .producto {
     width: 220px;
     padding: 15px;
     margin: 15px;
-    background-color: rgb(202, 235, 248);
+    background-color: #e7f0f8b7;
 
     border: 1px solid black;
+    border-radius: 10px ;
 
     text-align: center;
 }
@@ -155,7 +162,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    flex-direction: row;  
+    flex-direction: row; 
+   
 }
 .nav p{
     color: #1f2937 ;
@@ -289,7 +297,7 @@ button:hover {
     display: flex;
     padding: 15px;
     margin: 15px;
-    background-color: rgb(202, 235, 248);
+    background-color: #e7f0f8b7;
     border: 1px solid black;
 }
 
@@ -316,7 +324,7 @@ button:hover {
 .index .review {
     padding: 15px;
     margin: 15px;
-    background-color: rgb(202, 235, 248);
+    background-color: #e7f0f8b7;
     border: 1px solid black;
 }
 
@@ -352,17 +360,7 @@ button:hover {
 }
 
 
-@media (max-width: 600px) {
-    .index .detalle-producto {
-        flex-direction: column;
-    }
 
-    .index .detalle-producto img {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-}
 
 /* Celular (hasta 600px) */
 @media (max-width: 600px) {
