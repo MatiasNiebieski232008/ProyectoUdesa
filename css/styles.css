@@ -346,33 +346,120 @@ button:hover {
     text-align: center;
 }
 
-/* 9. Responsive login, register, index
-   ========================================================================== */
+/* 9. Responsive general
+==================================================== */
 
-/* Tablet (hasta 1024px) */
-@media (max-width: 1024px) {
-    .login .abajo,
-    .register .abajo {
-        width: 40%;
-        height: auto;
-        padding: 40px;
-    }
-}
-
-
-
-
-/* Celular (hasta 600px) */
 @media (max-width: 600px) {
-    .login .abajo,
-    .register .abajo {
+
+    /* HEADER / NAV */
+
+    .index header {
+        flex-direction: column;
+    }
+
+    .index .header-nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .index .header-nav li {
+        margin: 5px 0;
+    }
+
+    .index .header-search {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+
+    /* INDEX / CATEGORY */
+
+    .index .contenido-index {
+        flex-direction: column;
+    }
+
+    .index .var {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid black;
+    }
+
+    .index .contenido-principal {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .index .contenedor-productos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index .producto {
+        width: 90%;
+    }
+
+
+    /* PRODUCT */
+
+    .index .detalle-producto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .index .detalle-producto img {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .index .tags {
+        flex-wrap: wrap;
+    }
+
+    .index .tags li {
+        margin-bottom: 10px;
+    }
+
+    .index .review {
+        margin: 10px 0;
+    }
+
+
+    /* RESULTADOS DE BUSQUEDA */
+
+    .index .termino-buscado {
+        margin: 10px;
+    }
+
+    .index .sin-resultados {
+        margin: 10px 0;
+    }
+
+
+    /* LOGIN */
+
+    .login .abajo {
         width: 60%;
+        height: auto;
         padding: 20px;
     }
+
+
+    /* REGISTER */
+
+    .register .abajo {
+        width: 60%;
+        height: auto;
+        padding: 20px;
+    }
+
+
+    /* INPUTS Y BOTONES */
 
     input,
     button {
         width: 100%;
     }
 
-   }
+}
