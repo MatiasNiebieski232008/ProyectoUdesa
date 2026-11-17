@@ -80,6 +80,11 @@ img{
     margin: 0 10px;
 }
 
+.index .header-nav .saludo,
+.index .header-nav .link-logout {
+    display: none;
+}
+
 ul {
     list-style: none;
 }

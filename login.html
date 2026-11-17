@@ -22,21 +22,25 @@
 
         <h1>Iniciar sesión</h1>
 
-        <p>
+        <div>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" value=""required placeholder="Ingresar email">
-        </p>
+            <input type="email" id="email" name="email" value="" placeholder="Ingresar email">
+            <p class="mensaje-error error-email"></p>
+        </div>
 
-        <p>
+        <div>
             <label for="clave">Contraseña:</label><br>
-            <input type="password" id="clave" name="clave" value="" required placeholder="Ingresar contraseña">
-        </p>
+            <input type="password" id="clave" name="clave" value="" placeholder="Ingresar contraseña">
+            <p class="mensaje-error error-clave"></p>
+        </div>
 
-        <p>
+        <div>
             <button type="submit">Ingresar</button>
-        </p>
-        <p><a href="./register.html">No tengo cuenta</a></p>
+        </div>
+        <div><a href="./register.html">No tengo cuenta</a></div>
     </form>
 </section>
+
+    <script src="./js/login.js"></script>
 </body>
 </html>
