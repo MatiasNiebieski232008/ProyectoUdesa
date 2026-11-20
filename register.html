@@ -1,51 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body class="register">
-     
+
     <nav class="nav">
         <img class="logo" src="./img/logo.png" alt="">
-        <a class="pos"  href="./index.html">
-                 <p>Inicio</p>
+
+        <a class="pos" href="./index.html">
+            <p>Inicio</p>
             <img class="home" src="./img/home.webp" alt="">
         </a>
     </nav>
-     
+
     <section class="abajo">
-    <form action="./login.html" class="form" method="get">
-        <h1>Registro</h1>
 
-        <div>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" value="" required placeholder="Ingresar email">
-        </div>
+        <form action="./login.html" class="form" method="get">
 
-        <div>
-            <label for="clave">Contraseña:</label><br>
-            <input type="password" id="clave" name="clave" value="" required placeholder="Ingresar contraseña">
-        </div>
+            <h1>Registro</h1>
 
-        <div>
-            <label for="confcontra">Repetir contraseña:</label><br>
-            <input type="password" id="confcontra" name="confcontra" value="" required placeholder="Repetir contraseña">
-        </div>
+            <div>
+                <label for="email">Email:</label><br>
 
-        <div>
-            <input type="checkbox" id="terminos" name="terminos" required>
-            <label for="terminos">Acepto términos y condiciones</label>
-        </div>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value=""
+                    placeholder="Ingresar email"
+                >
 
-        <div>
-            <button type="submit">Registrarme</button>
-        </div>
+                <p class="mensaje-error error-email"></p>
+            </div>
 
-        <div><a href="./login.html">Ya tengo una cuenta</a></div>
-    </form>
-</section>
+            <div>
+                <label for="clave">Contraseña:</label><br>
+
+                <input
+                    type="password"
+                    id="clave"
+                    name="clave"
+                    value=""
+                    placeholder="Ingresar contraseña"
+                >
+
+                <p class="mensaje-error error-clave"></p>
+            </div>
+
+            <div>
+                <label for="confcontra">Repetir contraseña:</label><br>
+
+                <input
+                    type="password"
+                    id="confcontra"
+                    name="confcontra"
+                    value=""
+                    placeholder="Repetir contraseña"
+                >
+
+                <p class="mensaje-error error-confcontra"></p>
+            </div>
+
+            <div>
+                <input
+                    type="checkbox"
+                    id="terminos"
+                    name="terminos"
+                    required
+                >
+
+                <label for="terminos">
+                    Acepto términos y condiciones
+                </label>
+            </div>
+
+            <div>
+                <button type="submit">Registrarme</button>
+            </div>
+
+            <div>
+                <a href="./login.html">Ya tengo una cuenta</a>
+            </div>
+
+        </form>
+
+    </section>
+
+    <script src="./js/register.js"></script>
+
 </body>
+
 </html>
